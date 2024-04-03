@@ -7,7 +7,7 @@ Generates ICS files containing event information.
 
 ## Installation
 ### Download the Extension Files:
-Clone or download this repository to your local machine.
+Download the crx file from the releases page
 ### Enable Developer Mode in Chrome:
 Open Chrome and navigate to chrome://extensions/.
 Enable Developer mode (usually a toggle switch in the top right corner).
