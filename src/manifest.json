@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Carroll Calendar Extension",
+  "description": "Add carroll events to your calendar",
+  "version": "1.0",
+  "action": {
+    "default_icon": "calendar-plus.png"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.carroll.edu/news-events/events/*"], 
+      "js": ["FileSaver.js", "Blob.js", "ics.js", "inject.js"]
+    }
+  ]
+}
